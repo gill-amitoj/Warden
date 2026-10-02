@@ -1,0 +1,18 @@
+{
+  "bindings": [
+    {
+      "name": "Timer",
+      "type": "timerTrigger",
+      "direction": "in",
+      "schedule": "%WARDEN_SCHEDULE%",
+      "runOnStartup": false
+    },
+    {
+      "name": "AuditLog",
+      "type": "blob",
+      "direction": "out",
+      "path": "audit/{DateTime}-{rand-guid}.jsonl",
+      "connection": "AzureWebJobsStorage"
+    }
+  ]
+}

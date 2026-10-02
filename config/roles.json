@@ -1,0 +1,13 @@
+{
+  "groupPrefix": "warden-",
+  "allStaffGroup": "warden-all-staff",
+  "departments": {
+    "Executive":   ["warden-leadership"],
+    "Engineering": ["warden-engineering", "warden-source-control"],
+    "Sales":       ["warden-sales", "warden-crm"],
+    "Marketing":   ["warden-marketing", "warden-crm"],
+    "Finance":     ["warden-finance", "warden-erp"],
+    "People":      ["warden-people", "warden-hris"],
+    "Support":     ["warden-support", "warden-ticketing"]
+  }
+}

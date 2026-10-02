@@ -1,0 +1,51 @@
+EmployeeId,FirstName,LastName,Department,JobTitle,ManagerId,Status
+E001,Priya,Raman,Executive,Chief Executive Officer,,Active
+E002,Marcus,Bell,Engineering,VP of Engineering,E001,Active
+E003,Elena,Petrova,Sales,VP of Sales,E001,Active
+E004,Daniel,Okafor,Finance,Director of Finance,E001,Active
+E005,Grace,Liu,People,Head of People,E001,Active
+E006,Tomás,Herrera,Marketing,Head of Marketing,E001,Active
+E007,Hannah,Schultz,Support,Support Manager,E001,Active
+E008,Siobhan,O'Brien,Engineering,Staff Software Engineer,E002,Active
+E009,Alex,Kim,Engineering,Senior Software Engineer,E002,Active
+E010,Alex,Kim,Sales,Account Executive,E003,Active
+E011,José,Álvarez,Engineering,Software Engineer,E002,Active
+E012,Mary-Kate,Lin,Engineering,DevOps Engineer,E002,Active
+E013,Noah,Fischer,Engineering,Software Engineer,E002,Active
+E014,Aisha,Bello,Engineering,QA Engineer,E002,Active
+E015,Liam,Walsh,Engineering,Software Engineer,E002,Terminated
+E016,Mei,Tanaka,Engineering,Data Engineer,E002,Active
+E017,Omar,Haddad,Support,Technical Support Engineer,E007,Active
+E018,Sofia,Rossi,Engineering,Security Engineer,E002,Active
+E019,Ethan,Clarke,Engineering,Software Engineer,E002,Active
+E020,Zara,Ahmed,Sales,Account Executive,E003,Active
+E021,Lucas,Moreau,Sales,Account Executive,E003,Active
+E022,Chloe,Nguyen,Marketing,Marketing Specialist,E006,Active
+E023,Ryan,Murphy,Sales,Sales Development Rep,E003,Active
+E024,Isabel,Costa,Sales,Account Manager,E003,Active
+E025,Jamal,Wright,Sales,Account Manager,E003,Terminated
+E026,Nina,Kowalski,Sales,Sales Operations Analyst,E003,Active
+E027,Kevin,Osei,Finance,Financial Analyst,E004,Active
+E028,Laura,Becker,Finance,Accountant,E004,Active
+E029,Arjun,Mehta,People,People Operations Coordinator,E005,Active
+E030,Olivia,Grant,Finance,Payroll Specialist,E004,Active
+E031,Samuel,Adeyemi,People,Recruiter,E005,Active
+E032,Emma,Lindqvist,People,HR Generalist,E005,Active
+E033,Diego,Santos,People,Recruiter,E005,Active
+E034,Fatima,Rahman,Marketing,Content Strategist,E006,Active
+E035,Jack,Thompson,Marketing,Marketing Specialist,E006,Active
+E036,Yuki,Sato,Marketing,Designer,E006,Active
+E037,Ben,Carter,Marketing,Marketing Analyst,E006,Terminated
+E038,Leah,Goldberg,Support,Support Specialist,E007,Active
+E039,Victor,Ivanov,Support,Support Specialist,E007,Active
+E040,Amara,Diallo,Engineering,Software Engineer,E002,Active
+E041,Connor,Reid,Support,Support Specialist,E007,Active
+E042,Ines,Ferreira,Support,Technical Support Engineer,E007,Active
+E043,Tariq,Aziz,Support,Support Specialist,E007,Terminated
+E044,Ruby,Evans,Engineering,Software Engineer,E002,Active
+E045,Hugo,Lambert,Engineering,Site Reliability Engineer,E002,Active
+E046,Anika,Joshi,Finance,Financial Analyst,E004,Active
+E047,Paul,Novak,Sales,Account Executive,E003,Active
+E048,Maya,Cohen,Marketing,Marketing Specialist,E006,Active
+E049,Felix,Wagner,Support,Support Specialist,E007,Active
+E050,Clara,Jensen,People,People Operations Coordinator,E005,Active
