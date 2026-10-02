@@ -8,6 +8,8 @@ written to an audit log.
 It's a PowerShell module on top of Microsoft Graph, tested with Pester, and
 deployed as a daily Azure Function that signs in with a managed identity.
 
+![Synthetic employees provisioned by Warden in Entra ID](docs/entra-users.png)
+
 ---
 
 ## The problem
@@ -140,6 +142,10 @@ I first targeted Azure Automation, but Azure for Students subscriptions can't
 create Automation accounts in any region their policy allows, so the job runs
 as a timer-triggered Function instead. It's the same model: serverless, a
 managed identity, no stored secrets.
+
+![The deployed resources: Function App, Consumption plan, storage account](docs/azure-resources.png)
+
+The deployment was torn down after testing; the commands above recreate it.
 
 ```powershell
 az group delete -n warden-rg --yes   # tear down
